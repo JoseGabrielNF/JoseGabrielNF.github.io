@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<title>Minha Página</title>
-</head>
-<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeekEye - O Mundo em Suas Mãos</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Define a fonte Inter como padrão */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
 
-<h1>Olá</h1>
+        /* Define a imagem de fundo */
+        .bg-hero {
+            background-image: url('https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        /* Fallback de imagem caso a principal falhe */
+        img.bg-hero-fallback {
+            object-fit: cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Seção Principal -->
+    <main class="relative min-h-screen w-full flex items-center justify-center bg-hero">
+        <!-- Imagem de fallback caso a de fundo não carregue -->
+        <img 
+            src="https://placehold.co/1920x1080/000000/FFFFFF?text=SeekEye" 
+            alt="Imagem de fundo do globo terrestre visto do espaço"
+            class="bg-hero-fallback"
+            onerror="this.style.display='none'"
+        >
+        
+        <!-- Overlay para escurecer o fundo e melhorar a legibilidade do texto -->
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+        <!-- Conteúdo Centralizado -->
+        <div class="relative z-10 text-center p-8">
+            
+            <!-- Logo -->
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-wider text-white drop-shadow-lg">
+                SeekEye
+            </h1>
+            
+            <!-- Mensagem -->
+            <p class="mt-4 text-lg md:text-xl lg:text-2xl font-light text-gray-200 drop-shadow-md">
+                O mundo em suas mãos.
+            </p>
+            
+        </div>
+    </main>
 
 </body>
 </html>
