@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c4169cd.css",
-    "main.js": "/static/js/main.8e3ffd97.js",
-    "static/js/453.ca5d2e2c.chunk.js": "/static/js/453.ca5d2e2c.chunk.js",
-    "index.html": "/index.html",
-    "main.4c4169cd.css.map": "/static/css/main.4c4169cd.css.map",
-    "main.8e3ffd97.js.map": "/static/js/main.8e3ffd97.js.map",
-    "453.ca5d2e2c.chunk.js.map": "/static/js/453.ca5d2e2c.chunk.js.map"
+    "main.css": "/JoseGabrielNF/JoseGabrielNF.github.io/static/css/main.540e432a.css",
+    "main.js": "/JoseGabrielNF/JoseGabrielNF.github.io/static/js/main.a54a0c88.js",
+    "static/js/453.ca5d2e2c.chunk.js": "/JoseGabrielNF/JoseGabrielNF.github.io/static/js/453.ca5d2e2c.chunk.js",
+    "index.html": "/JoseGabrielNF/JoseGabrielNF.github.io/index.html",
+    "main.540e432a.css.map": "/JoseGabrielNF/JoseGabrielNF.github.io/static/css/main.540e432a.css.map",
+    "main.a54a0c88.js.map": "/JoseGabrielNF/JoseGabrielNF.github.io/static/js/main.a54a0c88.js.map",
+    "453.ca5d2e2c.chunk.js.map": "/JoseGabrielNF/JoseGabrielNF.github.io/static/js/453.ca5d2e2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c4169cd.css",
-    "static/js/main.8e3ffd97.js"
+    "static/css/main.540e432a.css",
+    "static/js/main.a54a0c88.js"
   ]
 }
