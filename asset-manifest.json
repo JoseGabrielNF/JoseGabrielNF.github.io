@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JoseGabrielNF/JoseGabrielNF.github.io/static/css/main.540e432a.css",
-    "main.js": "/JoseGabrielNF/JoseGabrielNF.github.io/static/js/main.83e2fb44.js",
-    "static/js/453.ca5d2e2c.chunk.js": "/JoseGabrielNF/JoseGabrielNF.github.io/static/js/453.ca5d2e2c.chunk.js",
-    "index.html": "/JoseGabrielNF/JoseGabrielNF.github.io/index.html",
-    "main.540e432a.css.map": "/JoseGabrielNF/JoseGabrielNF.github.io/static/css/main.540e432a.css.map",
-    "main.83e2fb44.js.map": "/JoseGabrielNF/JoseGabrielNF.github.io/static/js/main.83e2fb44.js.map",
-    "453.ca5d2e2c.chunk.js.map": "/JoseGabrielNF/JoseGabrielNF.github.io/static/js/453.ca5d2e2c.chunk.js.map"
+    "main.css": "/seminario/static/css/main.540e432a.css",
+    "main.js": "/seminario/static/js/main.9016c920.js",
+    "static/js/453.ca5d2e2c.chunk.js": "/seminario/static/js/453.ca5d2e2c.chunk.js",
+    "index.html": "/seminario/index.html",
+    "main.540e432a.css.map": "/seminario/static/css/main.540e432a.css.map",
+    "main.9016c920.js.map": "/seminario/static/js/main.9016c920.js.map",
+    "453.ca5d2e2c.chunk.js.map": "/seminario/static/js/453.ca5d2e2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.540e432a.css",
-    "static/js/main.83e2fb44.js"
+    "static/js/main.9016c920.js"
   ]
 }
