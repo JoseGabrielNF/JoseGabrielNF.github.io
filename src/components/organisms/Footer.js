@@ -1,6 +1,5 @@
 import React from 'react';
 import Icon from '../atoms/Icon';
-import Button from '../atoms/Button';
 
 const Footer = () => {
   const quickLinks = [
@@ -17,10 +16,6 @@ const Footer = () => {
     { name: 'youtube', href: '#', bgColor: 'bg-red-600 hover:bg-red-700' }
   ];
 
-  const handleNewsletterSubmit = (e) => {
-    e.preventDefault();
-    // Handle newsletter subscription
-  };
 
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -81,23 +76,6 @@ const Footer = () => {
               ))}
             </div>
 
-            <div>
-              <h4 className="font-bold mb-2">Newsletter</h4>
-              <form onSubmit={handleNewsletterSubmit} className="flex">
-                <input 
-                  type="email" 
-                  placeholder="Seu e-mail" 
-                  className="px-3 py-2 text-gray-800 rounded-l-lg focus:outline-none w-full"
-                />
-                <Button 
-                  type="submit"
-                  variant="primary" 
-                  className="rounded-l-none rounded-r-lg px-4"
-                >
-                  <Icon name="paper-plane" />
-                </Button>
-              </form>
-            </div>
           </div>
         </div>
 
